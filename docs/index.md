@@ -52,8 +52,9 @@ New to the EA? Head to the [Getting Started](getting-started.md) guide for insta
 | 📖 Wiki & Docs | You're already here! |
 | 🛒 MQL5 Marketplace | [Product page](#) |
 | 📺 YouTube | [@TU-CANAL-AQUI](https://youtube.com/@TU-CANAL-AQUI) |
-| 💬 Telegram | [t.me/TU-CANAL-AQUI](https://t.me/TU-CANAL-AQUI) |
+| 📢 Telegram Channel (Updates) | [t.me/OrdersManagerOneForAllUpdates](https://t.me/OrdersManagerOneForAllUpdates) |
+| 💬 Telegram Group (Support) | [t.me/OrdersManagerOneForAllSupport](https://t.me/OrdersManagerOneForAllSupport) |
 
 !!! tip
-    Subscribe to the YouTube channel and join the Telegram group for setup
-    tutorials, update announcements and direct support.
+    Follow the Telegram Channel for update announcements, and join the
+    Telegram Group for setup help, bug reports and community discussion.
