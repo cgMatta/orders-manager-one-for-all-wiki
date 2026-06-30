@@ -35,10 +35,25 @@ It replaces the default MT5 order interface with a modern, CCanvas-based UI that
 
 - MetaTrader 5 (build 3000+)
 - Any broker account type (Standard, Cent, Hedging, Netting)
-- Tested on: FundedNext, FTMO, ICMarkets, Roboforex demo accounts
+- Tested on Hedging and Netting accounts
 
 ---
 
 ## Getting Started
 
 New to the EA? Head to the [Getting Started](getting-started.md) guide for installation and first steps.
+
+---
+
+## Support & Community
+
+| Channel | Link |
+|---------|------|
+| 📖 Wiki & Docs | You're already here! |
+| 🛒 MQL5 Marketplace | [Product page](#) |
+| 📺 YouTube | [@TU-CANAL-AQUI](https://youtube.com/@TU-CANAL-AQUI) |
+| 💬 Telegram | [t.me/TU-CANAL-AQUI](https://t.me/TU-CANAL-AQUI) |
+
+!!! tip
+    Subscribe to the YouTube channel and join the Telegram group for setup
+    tutorials, update announcements and direct support.
