@@ -36,6 +36,7 @@ nav:
     - Easy Order: panels/easy-order.md
     - Order List: panels/order-list.md
   - Configuration: inputs.md
+  - Updates: updates.md
   - Changelog: changelog.md
   - FAQ: faq.md
 
