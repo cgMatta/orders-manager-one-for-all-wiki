@@ -67,6 +67,28 @@ OPTIONS header to expand or collapse it.
 
 ---
 
+## Diagnostics
+
+The **[Diagnostics]** button at the bottom of the OPTIONS section prints a full
+troubleshooting snapshot to the MT5 Journal/Experts tab. Use it when reporting
+a bug or asking for support.
+
+The output includes:
+
+- EA version, magic number, language and state
+- Account type, currency, broker, server and leverage (no balance or login)
+- Symbol info: digits, spread, tick value, contract size, volume limits, stops level
+- MT5 build, connection status and AutoTrading status
+- All open positions: ticket, type, lots, entry, SL, TP, P&L and magic
+- All pending orders: type (BUY_LIMIT, SELL_STOP, etc.), price, SL, TP and magic
+- Active Netting Ladders: entry, direction, volume, rung count and next target
+- Last error code
+
+To share the log: in the **Experts** tab, right-click any row → **Open** to view
+the full log file, or select rows and use **Copy** to paste into a support message.
+
+---
+
 ## Dragging
 
 The panel can be moved anywhere on the chart by clicking and dragging

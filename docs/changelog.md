@@ -4,6 +4,61 @@ All notable features and important fixes for **Orders Manager One For All**.
 
 ---
 
+## v1.88
+
+**Feature: Diagnostics button**
+
+New **[Diagnostics]** button at the bottom of the OPTIONS section in the Main Panel.
+Click it to print a full troubleshooting snapshot to the MT5 Journal/Experts tab,
+including EA state, account type, symbol info, MT5 build, all open positions
+(with type, lots, entry, SL, TP, P&L), pending orders, and active Netting Ladders.
+Sensitive financial data (balance, equity, margin, login) is intentionally excluded
+so the output can be shared safely with support.
+
+To save or share the log: in the Experts tab, right-click a row → **Open** to view
+the full log file, or select rows and use **Copy** to paste into a support message.
+
+**Improvement: Full English translation of all internal messages**
+
+All internal messages, warnings and feedback strings are now in English across all
+modules. Fixes also apply to user-visible UI strings that were not yet going through
+the translation system (`TR()`), including order list pagination and runner leg labels.
+
+**Fix: Three panel buttons silently unresponsive**
+
+The hit detection array in the Main Panel had a hard limit of 16 slots. With 19
+buttons registered, the last three (`Diagnostics`, `Include Commissions in Risk`,
+and the `Reverse Mode` toggle) were silently dropped and never responded to hover
+or click. Array increased to 24 slots.
+
+**Fix: Easy Order and Order List sections misaligned in OPTIONS**
+
+When the language toggle row was added to the GENERAL card in a previous version,
+the vertical positions of the Easy Order and Order List sub-sections were not
+updated to match. This caused both sections to overlap with the GENERAL card.
+Layout formulas corrected.
+
+---
+
+## v1.87
+
+**Fix: Wiki help button [?] opens URL in panel**
+
+New `[?]` button in the Main Panel header. Clicking it displays the wiki URL
+in an MT5 alert popup and prints it to the Journal for easy copying.
+
+**Fix: NettingLadder file isolation and input validation**
+
+Ladder persistence files moved from `MQL5/Files/` root to `MQL5/Files/EO_netting/`
+subdirectory. Added range validation when loading files to reject corrupt or
+manually edited data.
+
+**Improvement: EA renamed to "Orders Manager One For All"**
+
+File, EA name constant, and panel header updated to reflect the official product name.
+
+---
+
 ## v1.85
 
 **Improvement: Input settings reorganized**
