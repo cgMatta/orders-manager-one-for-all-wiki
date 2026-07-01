@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/logo-200x200.png" alt="Orders Manager One For All" width="180">
+</div>
+
 # Orders Manager One For All
 
 **Orders Manager One For All** is a professional all-in-one trading panel for MetaTrader 5, designed for both retail traders and prop firm environments, it also supports cent accounts for either Netting or Hedging.
